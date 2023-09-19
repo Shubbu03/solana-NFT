@@ -24,14 +24,10 @@ const Home: NextPage = () => {
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
-          {/* NavBar */}
           <NavBar />
-
           <Spacer />
           <Center>{connected ? <Connected /> : <Disconnected />}</Center>
-
           <Spacer />
-
           <Center>
             <Box marginBottom={4} color="white"></Box>
           </Center>
